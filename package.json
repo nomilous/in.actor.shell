@@ -1,0 +1,19 @@
+{
+  "name": "in.shell",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/shell.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomilous/in.shell.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nomilous/in.shell/issues"
+  },
+  "homepage": "https://github.com/nomilous/in.shell#readme"
+}
