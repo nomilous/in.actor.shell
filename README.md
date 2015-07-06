@@ -38,7 +38,7 @@ $$in(function(buff) { // in. $ in.as.buffer $ cat file
 
 ```javascript
 $$in(function(netcat) { // in.as.stream $ nc -kl 3000
-  netcat.on('error', ...
+  // netcat.on('error', ...
   netcat.on('data', ...
   // netcat.on('end', ...
   // echo moo | nc localhost 3000
@@ -54,6 +54,7 @@ $$in(function(
 ){
   files.forEach(function(logFile) {
     var log = logs.shift();
+    // log.on('error', ...
     log.on('data', function(line) {
       logFile;
       line;
