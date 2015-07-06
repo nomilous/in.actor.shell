@@ -2,6 +2,8 @@
 
 Shell actor for [in.](https://github.com/nomilous/in.)
 
+This actor is bundled with in.
+
 #### It injects the result of a shell call into the argument
 
 ```javascript
