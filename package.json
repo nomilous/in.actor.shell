@@ -2,7 +2,7 @@
   "name": "in.actor.shell",
   "version": "0.0.0",
   "description": "",
-  "main": "lib/shell",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nomilous/in.actor.shell/issues"
   },
-  "homepage": "https://github.com/nomilous/in.actor.shell#readme"
+  "homepage": "https://github.com/nomilous/in.actor.shell#readme",
+  "dependencies": {
+    "when": "^3.7.3"
+  }
 }
