@@ -1,6 +1,3 @@
-objective 'Shell plugin for `in.fusion`', (recurse) ->
+objective 'Shell actor for in.', ->
 
-    ### search for files to watch / run tests on changes ###
-
-    recurse ['lib', 'test'], createDir: true
-    .then ->
+    
