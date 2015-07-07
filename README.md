@@ -52,7 +52,7 @@ $$in(function(netcat) { // in.as.stream $ nc -kl 3000
 ```javascript
 $$in(function(
   files, // in. {{ $$files('/var/log/*.log') }}
-  logs  // in.as.stream.lines $ tail -F {{files}}
+  logs  // in.as.stream.lines $ tail -Fn0 {{files}}
 ){
   files.forEach(function(logFile) {
     var log = logs.shift();

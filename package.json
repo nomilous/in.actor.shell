@@ -1,6 +1,6 @@
 {
   "name": "in.actor.shell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shell actor for in.",
   "main": "index.js",
   "scripts": {
