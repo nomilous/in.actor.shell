@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nomilous/in.actor.shell.svg)](https://travis-ci.org/nomilous/in.actor.shell)
+
 # in.actor.shell
 
 Shell actor for [in.](https://github.com/nomilous/in.)
