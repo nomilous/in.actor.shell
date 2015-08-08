@@ -66,3 +66,14 @@ $$in(function(
   });
 })
 ```
+
+#### It can ignore nonzero exit status
+
+eg. grep found no match returns 1
+
+```javascript
+opts = {ignoreExitCode: true};
+$$in(opts, function(match) { // in. $ grep UnLiKeLyStRiNg < filename.txt
+  
+})
+```
